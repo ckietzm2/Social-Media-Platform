@@ -5,11 +5,11 @@ const userSchema = new Schema(
   {
     first: String,
     last: String,
-    age: Number,
-    videos: [
+    email: String,
+    thoughts: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'video',
+        ref: 'Thought',
       },
     ],
   },

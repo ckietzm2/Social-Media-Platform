@@ -22,14 +22,12 @@ connection.once('open', async () => {
 
  
 
-    const first = 'Cody'
-    const last = 'Kietzman'
+    const username = 'ckietzm2'
     const email = 'ckietzm2@gmail.com'
     const thoughtText = "I like it"
 
     users.push({
-      first,
-      last,
+      username,
       email,
     });
 
@@ -41,7 +39,7 @@ connection.once('open', async () => {
   await User.collection.insertMany(users);
   await Thought.collection.insertMany(thoughts);
 
-  // loop through the saved videos, for each video we need to generate a video response and insert the video responses
+
   console.table(users);
   console.table(thoughts);
   console.info('Seeding complete! 🌱');

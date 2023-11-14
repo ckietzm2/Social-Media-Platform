@@ -8,7 +8,7 @@ const thoughtText = [
 
 ];
 
-const possibleResponses = [
+const reactions = [
   'I disagree!',
 ];
 
@@ -19,4 +19,4 @@ const users = [
 
 
 // Export the functions for use in seed.js
-module.exports = { names, thoughtText, users, possibleResponses };
+module.exports = { names, thoughtText, users, reactions };

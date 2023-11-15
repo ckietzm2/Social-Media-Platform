@@ -6,3 +6,4 @@ The social media platform is strictly the back end of a social media app.  It al
 GitHub link: https://github.com/ckietzm2/Social-Media-Platform
 
 Video:
+[Untitled_ Nov 15, 2023 4_02 PM.webm](https://github.com/ckietzm2/Social-Media-Platform/assets/143734933/207e6994-390d-4d94-b5ac-364a9a2806a8)
